@@ -1,4 +1,5 @@
 # What Was That?
+[English](README.md) | [简体中文](README.zh-CN.md)
 
 **Understand as you go.**
 
@@ -97,17 +98,6 @@ what-was-that/
 - Cross-conversation familiarity requires optional persistent storage supported by the host environment.
 - Terminology recognition and explanations depend on the underlying language model and its understanding of context.
 
-## Roadmap
-
-- [x] Core terminology explanation rules
-- [x] Context-aware term detection
-- [x] Adaptive language behavior
-- [x] Inline explanations
-- [x] Session-level deduplication
-- [x] Basic familiarity management
-- [ ] Persistent personal vocabulary
-- [ ] More platform-specific installation guides
-- [ ] Further multilingual improvements
 
 ## Contributing
 
