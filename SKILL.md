@@ -2,9 +2,10 @@
 ---
 name: what-was-that
 description: >
-  Automatically identify and explain unfamiliar technical
-  terms, English expressions, and acronyms during conversations.
-  Use this skill to help users understand new terminology
+  Automatically identify and explain unfamiliar English
+  technical terms, acronyms, domain-specific concepts,
+  and specialized expressions during conversations.
+  Help users understand unfamiliar terminology and expressions
   without interrupting the natural flow of conversation.
 ---
 
@@ -25,7 +26,8 @@ Prioritize:
 - Technical terms and domain-specific concepts.
 - Acronyms and abbreviations.
 - Names of algorithms, architectures, protocols and metrics.
-- Specialized expressions that are important to the current topic.
+- Specialized expressions that are important to the current topic
+  or may be unfamiliar to the user.
 
 Do not normally explain:
 - Everyday English words.
@@ -45,15 +47,18 @@ When a relevant term appears for the first time:
 - Provide a translation in the language of the conversation.
 - Add one short, plain-language explanation only when it
   helps clarify the term or improve understanding.
+- Keep both the translation and any additional explanation
+  inside the same parentheses immediately after the term.
 
 
 Examples:
 
-RAG (Retrieval-Augmented Generation，检索增强生成)：
-先检索外部资料，再让大模型结合资料生成回答。
+RAG (Retrieval-Augmented Generation，
+检索增强生成：先检索外部资料，再让大模型结合资料生成回答。)
 
-Embedding（嵌入表示）：
-将文本或其他数据转换成能够表达其特征的向量。
+
+Embedding (嵌入表示：
+将文本或其他数据转换成能够表达其特征的向量。)
 
 Keep explanations accurate, concise and easy to understand.
 
@@ -65,7 +70,7 @@ the intended meaning.
 
 Follow the language the user is communicating in.
 
-- Chinese conversation: explain in Chinese.
+- Chinese conversation: translate and explain in Chinese.
 - English conversation: explain in English.
 - Other languages: use the conversation language when possible.
 
@@ -111,7 +116,8 @@ when persistent storage is unavailable.
 
 - Prefer inline explanations immediately after the term.
 - Keep annotations short and natural.
-- Explain important terms rather than annotating everything.
+- Prioritize unfamiliar terms and expressions rather than annotating 
+  everything, keeping their annotations concise and within parentheses. 
 - When many unfamiliar terms appear together, prioritize
   the terms most important to understanding the answer.
 - Do not create a separate glossary unless requested.
