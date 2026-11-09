@@ -1,4 +1,4 @@
-# What Was That?
+# What Was That
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 **Understand as you go.**
@@ -18,7 +18,7 @@ When learning something new with AI, conversations often contain unfamiliar word
 
 Sometimes, understanding just one unfamiliar expression makes the whole explanation much easier to follow.
 
-What Was That? helps you understand these terms naturally, right when they appear.
+What Was That helps you understand these terms naturally, right when they appear.
 
 ## Features
 
@@ -31,11 +31,11 @@ What Was That? helps you understand these terms naturally, right when they appea
 
 ## Example
 
-### Without What Was That?
+### Without What Was That
 
 RAG can improve an AI agent by retrieving external knowledge.
 
-### With What Was That?
+### With What Was That
 
 RAG（Retrieval-Augmented Generation，检索增强生成：先检索外部资料，再让大模型结合资料生成回答）can improve an AI agent by retrieving external knowledge.
 
@@ -43,7 +43,7 @@ A little explanation, right when you need it.
 
 ## Installation
 
-What Was That? follows the [Agent Skills](https://agentskills.io/) format.
+What Was That follows the [Agent Skills](https://agentskills.io/) format.
 
 1. Clone or download this repository.
 2. Place the `what-was-that` folder in a directory supported by your AI agent's Skill system.
@@ -75,7 +75,7 @@ You can provide feedback through natural language:
 
 ## Design Philosophy
 
-What Was That? is not a general-purpose translator or dictionary.
+What Was That is not a general-purpose translator or dictionary.
 
 Its goal is to identify potentially unfamiliar terms and expressions, explain them when useful, and preserve the natural flow of conversation.
 
@@ -86,9 +86,8 @@ Its goal is to identify potentially unfamiliar terms and expressions, explain th
 ```text
 what-was-that/
 ├── SKILL.md
-├── README.md
-└── tests/
-    └── test-cases.md
+├── README.zh-CN.md
+└── README.md
 ```
 
 ## Limitations

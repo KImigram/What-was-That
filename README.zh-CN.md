@@ -1,9 +1,9 @@
-# What Was That?
+# What Was That
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 **边聊边懂，理解每一个新概念。**
 
-What Was That? 是一个轻量级 AI Agent Skill，能够在日常对话中自动识别并解释用户可能不熟悉的英文专业术语、缩写、领域概念及特殊表达。
+What Was That 是一个轻量级 AI Agent Skill，能够在日常对话中自动识别并解释用户可能不熟悉的英文专业术语、缩写、领域概念及特殊表达。
 
 无需频繁中断对话、手动查询陌生词汇，让理解新知识的过程更加自然流畅。
 
@@ -18,7 +18,7 @@ What Was That? 是一个轻量级 AI Agent Skill，能够在日常对话中自�
 
 有时候，只需要理解其中一个陌生词汇，就能读懂整段解释。
 
-What Was That? 希望解决的正是这个问题：**让 AI 在正常回答问题的同时，自然地解释那些可能妨碍你理解的术语和表达。**
+What Was That 希望解决的正是这个问题：**让 AI 在正常回答问题的同时，自然地解释那些可能妨碍你理解的术语和表达。**
 
 ## 功能特性
 
@@ -31,11 +31,11 @@ What Was That? 希望解决的正是这个问题：**让 AI 在正常回答问�
 
 ## 效果示例
 
-### 未使用 What Was That?
+### 未使用 What Was That
 
 RAG 可以通过检索外部知识，提升 AI Agent 的回答质量。
 
-### 使用 What Was That?
+### 使用 What Was That
 
 RAG（Retrieval-Augmented Generation，检索增强生成：先检索外部资料，再让大模型结合资料生成回答）可以通过检索外部知识，提升 AI Agent 的回答质量。
 
@@ -43,7 +43,7 @@ RAG（Retrieval-Augmented Generation，检索增强生成：先检索外部资�
 
 ## 安装方法
 
-What Was That? 遵循 [Agent Skills](https://agentskills.io/) 规范。
+What Was That 遵循 [Agent Skills](https://agentskills.io/) 规范。
 
 1. 下载或克隆本仓库。
 2. 将 `what-was-that` Skill 文件夹放入所使用 AI Agent 支持的 Skills 目录中。
@@ -85,11 +85,11 @@ Skill 加载后，你可以像平时一样与 AI 交流，无需额外操作。
 - 「暂时关闭术语解释。」
 - 「恢复术语解释。」
 
-What Was That? 会根据你的反馈调整当前对话中的注释行为。
+What Was That 会根据你的反馈调整当前对话中的注释行为。
 
 ## 设计理念
 
-What Was That? 不是一个普通的翻译器，也不是一个需要主动查询的专业词典。
+What Was That 不是一个普通的翻译器，也不是一个需要主动查询的专业词典。
 
 它希望在不改变原本对话内容、结构和风格的前提下，自动识别可能妨碍用户理解的术语，并提供适量解释。
 
@@ -104,10 +104,8 @@ What Was That? 不是一个普通的翻译器，也不是一个需要主动查�
 ```text
 what-was-that/
 ├── SKILL.md
-├── README.md
 ├── README.zh-CN.md
-└── tests/
-    └── test-cases.md
+└── README.md
 ```
 
 ## 当前限制
@@ -129,7 +127,7 @@ what-was-that/
 - 同一个术语反复出现解释；
 - 注释影响了原本的阅读体验；
 
-欢迎反馈，帮助 What Was That? 变得更好用。
+欢迎反馈，帮助 What Was That 变得更好用。
 
 ## 开源协议
 
